@@ -2,19 +2,20 @@
 MeshCombineder
 유니티 내부에서 메쉬를 합치기 위한 스크립트
 
----
+
 
 ### ⚙️ 개발 환경
 - Unity 2022.3.3f1
 - Visual Studio 2022
 
----
+
 
 ## 📌 주요 기능 설명
 ### 예시사진
 ![image](https://github.com/ImKrap/MeshCombineder/assets/157236702/52d87224-3244-45e0-ae7f-96cb5186bf03)
 
 ---
+
 
 ### 1. MergeSameKeywordMaterial
 - 해당 스크립트가 존재하는 오브젝트의 자식들을 머티리얼의 키워드 별로 분류
@@ -55,7 +56,7 @@ MeshCombineder
 3. MergeSameKeywordMaterial를 눌러 활성
 4. Asset/Meshes에 생성된 메쉬들을 하위에 생성된 빈 오브젝트 MeshFilter에 차례대로 드래그앤 드롭
 5. ShowOnlyChild Collider 클릭[컬라이더가 필요한 경우]
-6. 
+
 #### +같은 키워드로 묶인 머티리얼과 그에 따른 메쉬 지정 후 모습+
 ![image](https://github.com/ImKrap/MeshCombineder/assets/157236702/75a0ab17-0aad-47a6-8d60-68f26e9a1fc2)
 
