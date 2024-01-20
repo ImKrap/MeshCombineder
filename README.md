@@ -16,7 +16,7 @@ MeshCombineder
 - 분류된 머티리얼별의 종류에 따라 빈 자식오브젝트로 생성함[자식오브젝트를 부모 오브젝트의 레이어를 따라감]
   ![image](https://github.com/ImKrap/MeshCombineder/assets/157236702/9225f18b-cc31-4bb1-9861-89857f2924fe)
 
-### ! 해당 기능이 작동 후 자식 오브젝트들은 자동으로 비활성화된 후 Asset/Meshes에 병합된 Mesh가 생성됨
+##### ! 해당 기능이 작동 후 자식 오브젝트들은 자동으로 비활성화된 후 Asset/Meshes에 병합된 Mesh가 생성됨
 
 2. ShowOnlyChildCollider
 - 자식 오브젝트들의 MeshRenderer를 비활성화하여 Collider만 남겨둔다.
@@ -29,7 +29,7 @@ MeshCombineder
 
 5. ClearResultOfCombine
 - Combineded Objects에 생성된 게임오브젝트를 제거
-### ! 생성된 메쉬는 직접 삭제해야 됨
+##### ! 생성된 메쉬는 직접 삭제해야 됨
 
 6. Add~~Collider
 - 1번으로 생성된 오브젝트에 컬라이더가 단순히 추가됨
@@ -38,7 +38,7 @@ MeshCombineder
 
 ## 추천 순서
 
-### ● 메쉬 병합 시
+##### ● 메쉬 병합 시
 1. 병합시킬 오브젝트의 상위 오브젝트에 해당 스크립트 추가
 2. MeshCollider Name에 이름 지정
 3. MergeSameKeywordMaterial를 눌러 활성
@@ -49,7 +49,7 @@ MeshCombineder
 
 
 
-### ● 생성된 메쉬 삭제 시
+##### ● 생성된 메쉬 삭제 시
 1. Asset/Meshes에 병합되어 생성된 Mesh를 삭제
 2. ClearResultOfCombine 클릭하여 하위에 생성된 오브젝트 제거
 3. ShowChild로 오브젝트 활성화
